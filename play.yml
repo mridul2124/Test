@@ -1,0 +1,9 @@
+- name: Create group
+  hosts: localhost
+  vars:
+    g_name: group
+  tasks:
+  - group:
+      name: "{{ g_name }}"
+      state: present
+
