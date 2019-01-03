@@ -1,7 +1,7 @@
 - name: Create group
   hosts: localhost
   vars:
-    g_name: group
+    g_name: group123
   tasks:
   - group:
       name: "{{ g_name }}"
